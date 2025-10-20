@@ -33,3 +33,28 @@
   font-size: 1.5rem;
   font-weight: 400;
 }
+
+.form-title {
+  font-size: 2rem;
+}
+
+.form-field > label {
+  font-weight: 600;
+}
+
+.form-button {
+  background-color: green;
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: white;
+  border: 0px;
+  cursor: pointer;
+}
+
+.error-message {
+  color: red;
+}
+
+.form-button:hover {
+  background-color: rgba(1, 158, 1, 0.991);
+}

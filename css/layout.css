@@ -62,6 +62,74 @@
   row-gap: 1.5rem;
 }
 
+.form-section {
+  padding: 2.5rem 0;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.form-section > h2 {
+  text-align: center;
+}
+
+.outreach-form {
+  padding: 1rem;
+}
+
+.fields-wrapper {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  row-gap: 2.5rem;
+  column-gap: 6rem;
+}
+
+.form-field {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.form-field > label {
+  padding-bottom: 0.5rem;
+}
+
+.form-field > input {
+  padding: 0.75rem 0rem 0.75rem 0.25rem;
+  border-radius: 0.25rem;
+  border: 1px solid rgb(159, 159, 159);
+}
+
+.fields-wrapper > :last-child {
+  grid-column: 1/ -1;
+}
+
+.form-textarea {
+  border-radius: 0.25rem;
+  border: 1px solid rgb(159, 159, 159);
+  padding-top: 0.25rem;
+  padding-left: 0.25rem;
+}
+
+.form-submit-wrapper {
+  padding-top: 2.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.form-button {
+  padding: 0.5rem 3.5rem;
+}
+
+.error-message {
+  padding-top: 1rem;
+  padding-left: 0.25rem;
+}
+
+@media screen and (min-width: 768px) {
+  .fields-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .cta-showcase-container {
     grid-template-columns: repeat(3, 1fr);

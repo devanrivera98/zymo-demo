@@ -105,6 +105,85 @@
           </div>
         </div>
       </section>
+      <section id="contact-us" class="form-section">
+        <h2 class="form-title">Form</h2>
+        <form id="form" class="outreach-form">
+          <div class="fields-wrapper">
+            <div class="form-field">
+              <label for="first-name">First Name</label>
+              <input
+                id="first-name"
+                name="first-name"
+                type="text"
+                aria-describedby="first-name-error"
+                aria-invalid="false"
+                required
+              />
+              <span
+                id="first-name-error"
+                class="error-message"
+                aria-live="polite"
+              ></span>
+            </div>
+            <div class="form-field">
+              <label for="last-name">Last Name</label>
+              <input
+                id="last-name"
+                name="last-name"
+                type="text"
+                aria-describedby="last-name-error"
+                aria-invalid="false"
+                required
+              />
+              <span
+                id="last-name-error"
+                class="error-message"
+                aria-live="polite"
+              ></span>
+            </div>
+            <div class="form-field">
+              <label for="company">Company</label>
+              <input
+                id="company"
+                name="company"
+                type="text"
+                aria-describedby="company-error"
+                aria-invalid="false"
+                required
+              />
+              <span
+                id="company-error"
+                class="error-message"
+                aria-live="polite"
+              ></span>
+            </div>
+            <div class="form-field">
+              <label for="role">Role</label>
+              <input
+                id="role"
+                name="role"
+                type="text"
+                aria-describedby="role-error"
+                aria-invalid="false"
+                required
+              />
+              <span id="role-error" class="error-message"></span>
+            </div>
+            <div class="form-field">
+              <label for="comments">Additional Comments</label>
+              <textarea
+                id="comments"
+                name="comments"
+                rows="10"
+                class="form-textarea"
+              ></textarea>
+            </div>
+          </div>
+          <div class="form-submit-wrapper">
+            <button class="form-button" type="submit">Submit</button>
+          </div>
+        </form>
+      </section>
     </main>
   </body>
 </html>

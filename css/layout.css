@@ -1,0 +1,142 @@
+.banner-img {
+  width: 100%;
+}
+
+.cta-section {
+  max-width: 1024px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 2.5rem;
+}
+
+.cta-showcase-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+
+.cta-icon {
+  width: 125px;
+}
+
+.cta-icon + h3 {
+  padding-top: 1.5rem;
+}
+
+.cta-button-wrapper {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.cta-button {
+  padding: 0.5rem 3rem;
+}
+
+.info-text-section {
+  padding: 1.5rem 1rem 5rem 1rem;
+}
+
+.info-text-section > div {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.info-title-container {
+  text-align: center;
+}
+
+.info-title {
+  padding-bottom: 1rem;
+}
+
+.info-subtitle {
+  padding-bottom: 1.5rem;
+}
+
+.info-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+}
+
+.form-section {
+  padding: 2.5rem 0;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.form-section > h2 {
+  text-align: center;
+}
+
+.outreach-form {
+  padding: 1rem;
+}
+
+.fields-wrapper {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  row-gap: 2.5rem;
+  column-gap: 6rem;
+}
+
+.form-field {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.form-field > label {
+  padding-bottom: 0.5rem;
+}
+
+.form-field > input {
+  padding: 0.75rem 0rem 0.75rem 0.25rem;
+  border-radius: 0.25rem;
+  border: 1px solid rgb(159, 159, 159);
+}
+
+.fields-wrapper > :last-child {
+  grid-column: 1/ -1;
+}
+
+.form-textarea {
+  border-radius: 0.25rem;
+  border: 1px solid rgb(159, 159, 159);
+  padding-top: 0.25rem;
+  padding-left: 0.25rem;
+}
+
+.form-submit-wrapper {
+  padding-top: 2.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.form-button {
+  padding: 0.5rem 3.5rem;
+}
+
+.error-message {
+  padding-top: 1rem;
+  padding-left: 0.25rem;
+}
+
+@media screen and (min-width: 640px) {
+  .info-text-section {
+    padding: 1.5rem 2rem 5rem 2rem;
+  }
+
+  .cta-showcase-container {
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 5rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .fields-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

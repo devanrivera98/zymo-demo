@@ -1,12 +1,189 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Zymo Demo</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <picture>
+          <source
+            media="(min-width: 1024px)"
+            srcset="assets/images/banner-desktop.jpg"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="assets/images/banner-tablet.jpg"
+          />
+          <img
+            class="banner-img"
+            src="assets/images/banner-mobile.jpg"
+            alt=""
+          />
+        </picture>
+      </section>
+      <section class="cta-section">
+        <div class="cta-title-container">
+          <h1 class="cta-title">Header Text</h1>
+          <h2 class="cta-subtitle">Lorem ipsum</h2>
+        </div>
+        <div class="cta-showcase-container">
+          <div>
+            <img
+              class="cta-icon"
+              src="assets/icons/checkmark_icon.jpg"
+              alt="Reward winning services."
+            />
+            <h3>Lorem ipsum</h3>
+          </div>
+          <div>
+            <img
+              class="cta-icon"
+              src="assets/icons/graphs_icon.jpg"
+              alt="Graph of our product demand showing exponential growth."
+            />
+            <h3>Lorem ipsum</h3>
+          </div>
+          <div>
+            <img
+              class="cta-icon"
+              src="assets/icons/bullseye_icon.jpg"
+              alt="Bullseye icon indictating that Zymo always hits its mark."
+            />
+            <h3>Lorem ipsum</h3>
+          </div>
+        </div>
+        <div class="cta-button-wrapper">
+          <a class="cta-button" href="#contact-us">Inquire Now</a>
+        </div>
+      </section>
+      <section class="info-text-section">
+        <div>
+          <div class="info-title-container">
+            <h2 class="info-title">Header Text</h2>
+            <h3 class="info-subtitle">Lorem ipsum</h3>
+          </div>
+          <div class="info-text-wrapper">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+              vitae dignissim tellus. Sed dui justo, viverra at sollicitudin
+              quis, facilisis et nunc. Etiam posuere lectus sed est suscipit, eu
+              blandit ex vehicula. Sed massa leo, pharetra molestie scelerisque
+              finibus, pulvinar ut urna. Nullam malesuada ultricies vestibulum.
+              Duis accumsan, tellus a egestas tincidunt, augue mi mattis enim, a
+              feugiat leo sapien non ante. Etiam mattis tortor nec eros
+              facilisis interdum ut ac turpis. Quisque lobortis ultricies magna,
+              et fermentum erat pellentesque eget. Nam non semper elit. Aenean
+              convallis ipsum quis aliquam euismod. Sed eleifend et eros et
+              molestie. In et consequat ante. Morbi et erat ac neque dapibus
+              suscipit ut at nunc. Ut vitae libero molestie, pharetra ipsum ac,
+              pharetra purus. Quisque pharetra turpis quis purus viverra
+              ultrices. Ut egestas est pulvinar ipsum laoreet efficitur.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+              vitae dignissim tellus. Sed dui justo, viverra at sollicitudin
+              quis, facilisis et nunc. Etiam posuere lectus sed est suscipit, eu
+              blandit ex vehicula. Sed massa leo, pharetra molestie scelerisque
+              finibus, pulvinar ut urna. Nullam malesuada ultricies vestibulum.
+              Duis accumsan, tellus a egestas tincidunt, augue mi mattis enim, a
+              feugiat leo sapien non ante. Etiam mattis tortor nec eros
+              facilisis interdum ut ac turpis. Quisque lobortis ultricies magna,
+              et fermentum erat pellentesque eget. Nam non semper elit. Aenean
+              convallis ipsum quis aliquam euismod. Sed eleifend et eros et
+              molestie. In et consequat ante. Morbi et erat ac neque dapibus
+              suscipit ut at nunc. Ut vitae libero molestie, pharetra ipsum ac,
+              pharetra purus. Quisque pharetra turpis quis purus viverra
+              ultrices. Ut egestas est pulvinar ipsum laoreet efficitur.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="contact-us" class="form-section">
+        <h2 class="form-title">Form</h2>
+        <form id="form" class="outreach-form">
+          <div class="fields-wrapper">
+            <div class="form-field">
+              <label for="first-name">First Name</label>
+              <input
+                id="first-name"
+                name="first-name"
+                type="text"
+                aria-describedby="first-name-error"
+                aria-invalid="false"
+                required
+              />
+              <span
+                id="first-name-error"
+                class="error-message"
+                aria-live="polite"
+              ></span>
+            </div>
+            <div class="form-field">
+              <label for="last-name">Last Name</label>
+              <input
+                id="last-name"
+                name="last-name"
+                type="text"
+                aria-describedby="last-name-error"
+                aria-invalid="false"
+                required
+              />
+              <span
+                id="last-name-error"
+                class="error-message"
+                aria-live="polite"
+              ></span>
+            </div>
+            <div class="form-field">
+              <label for="company">Company</label>
+              <input
+                id="company"
+                name="company"
+                type="text"
+                aria-describedby="company-error"
+                aria-invalid="false"
+                required
+              />
+              <span
+                id="company-error"
+                class="error-message"
+                aria-live="polite"
+              ></span>
+            </div>
+            <div class="form-field">
+              <label for="role">Role</label>
+              <input
+                id="role"
+                name="role"
+                type="text"
+                aria-describedby="role-error"
+                aria-invalid="false"
+                required
+              />
+              <span id="role-error" class="error-message"></span>
+            </div>
+            <div class="form-field">
+              <label for="comments">Additional Comments</label>
+              <textarea
+                id="comments"
+                name="comments"
+                rows="10"
+                class="form-textarea"
+              ></textarea>
+            </div>
+          </div>
+          <div class="form-submit-wrapper">
+            <button class="form-button" type="submit">Submit</button>
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
 </html>

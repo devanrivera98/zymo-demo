@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+picture {
+  width: 100%;
+}
+
+textarea {
+  resize: none;
+}

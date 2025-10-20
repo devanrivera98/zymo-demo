@@ -19,3 +19,17 @@
 .cta-button:hover {
   background-color: rgba(1, 158, 1, 0.991);
 }
+
+.info-text-section {
+  background-color: rgb(232, 229, 229);
+}
+
+.info-title {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.info-subtitle {
+  font-size: 1.5rem;
+  font-weight: 400;
+}

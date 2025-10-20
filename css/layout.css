@@ -35,6 +35,33 @@
   padding: 0.5rem 3rem;
 }
 
+.info-text-section {
+  padding: 1.5rem 1rem 5rem 1rem;
+}
+
+.info-text-section > div {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.info-title-container {
+  text-align: center;
+}
+
+.info-title {
+  padding-bottom: 1rem;
+}
+
+.info-subtitle {
+  padding-bottom: 1.5rem;
+}
+
+.info-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+}
+
 @media screen and (min-width: 1024px) {
   .cta-showcase-container {
     grid-template-columns: repeat(3, 1fr);

@@ -124,15 +124,19 @@
   padding-left: 0.25rem;
 }
 
-@media screen and (min-width: 768px) {
-  .fields-wrapper {
-    grid-template-columns: repeat(2, 1fr);
+@media screen and (min-width: 640px) {
+  .info-text-section {
+    padding: 1.5rem 2rem 5rem 2rem;
   }
-}
 
-@media screen and (min-width: 1024px) {
   .cta-showcase-container {
     grid-template-columns: repeat(3, 1fr);
     padding-top: 5rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .fields-wrapper {
+    grid-template-columns: repeat(2, 1fr);
   }
 }

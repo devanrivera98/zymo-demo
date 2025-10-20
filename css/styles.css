@@ -1,0 +1,21 @@
+.cta-title {
+  font-size: 2.5rem;
+  color: green;
+}
+
+.cta-subtitle {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.cta-button {
+  background-color: green;
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: white;
+  text-decoration: none;
+}
+
+.cta-button:hover {
+  background-color: rgba(1, 158, 1, 0.991);
+}

@@ -1,3 +1,43 @@
 .banner-img {
   width: 100%;
 }
+
+.cta-section {
+  max-width: 1024px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 2.5rem;
+}
+
+.cta-showcase-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+
+.cta-icon {
+  width: 125px;
+}
+
+.cta-icon + h3 {
+  padding-top: 1.5rem;
+}
+
+.cta-button-wrapper {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.cta-button {
+  padding: 0.5rem 3rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .cta-showcase-container {
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 5rem;
+  }
+}

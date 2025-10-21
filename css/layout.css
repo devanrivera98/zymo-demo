@@ -124,6 +124,43 @@
   padding-left: 0.25rem;
 }
 
+.modal-wrapper {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 10;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 330px;
+  height: 500px;
+  z-index: 10;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.modal-img {
+  width: 100%;
+}
+
+.modal-response {
+  padding: 1.5rem 0.75rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+  align-items: center;
+}
+
+.modal-button {
+  border: 0px;
+  padding: 1rem 5rem;
+}
+
 @media screen and (min-width: 640px) {
   .info-text-section {
     padding: 1.5rem 2rem 5rem 2rem;
@@ -132,6 +169,11 @@
   .cta-showcase-container {
     grid-template-columns: repeat(3, 1fr);
     padding-top: 5rem;
+  }
+
+  .modal {
+    width: 500px;
+    height: 550px;
   }
 }
 

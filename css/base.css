@@ -7,10 +7,26 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  position: relative;
+}
+
 picture {
   width: 100%;
 }
 
 textarea {
   resize: none;
+}
+
+dialog {
+  padding: 0;
+  margin: 0;
+}
+
+dialog[open] {
+  border: none;
+  max-width: none;
+  max-height: none;
+  overflow: hidden;
 }

@@ -58,3 +58,36 @@
 .form-button:hover {
   background-color: rgba(1, 158, 1, 0.991);
 }
+
+.modal-wrapper {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal {
+  background-color: rgb(227, 231, 217);
+  border: 15px solid;
+  border-color: rgb(3, 149, 73);
+}
+
+.modal-img-wrapper {
+  background-color: rgb(139, 204, 170);
+}
+
+.modal-response > h2 {
+  font-size: 2rem;
+}
+
+.modal-response > p {
+  font-size: 1.25rem;
+}
+
+.modal-button {
+  cursor: pointer;
+  background-color: rgb(3, 149, 73);
+  color: white;
+  font-size: 1.05rem;
+}
+
+.modal-button:hover {
+  background-color: rgba(1, 158, 1, 0.991);
+}

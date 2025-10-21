@@ -1,4 +1,5 @@
 import { validateField } from "./validationField.js";
+import { handleModal } from "./modal.js";
 
 const form = document.getElementById("form");
 const firstNameInput = document.getElementById("first-name");
@@ -10,6 +11,8 @@ const firstNameSpan = document.getElementById("first-name-error");
 const lastNameSpan = document.getElementById("last-name-error");
 const companySpan = document.getElementById("company-error");
 const roleSpan = document.getElementById("role-error");
+
+const modalButton = document.querySelector(".modal-button");
 
 function validateAllFields(e) {
   e.preventDefault();
@@ -47,7 +50,8 @@ function validateAllFields(e) {
   });
 
   if (isFormValid) {
-    //display modal and future form functionality here
+    handleModal();
+    //future form functionality here
   }
 }
 
@@ -68,3 +72,5 @@ roleInput.addEventListener("focusout", () =>
 );
 
 form.addEventListener("submit", (e) => validateAllFields(e));
+
+modalButton.addEventListener("click", handleModal);
